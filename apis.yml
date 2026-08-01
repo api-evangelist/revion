@@ -1,7 +1,28 @@
 aid: revion
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/revion.png
 name: Revion
-description: Revion is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Revion builds an AI-powered operating system for automotive retail service
+  operations. Its voice-first platform lets dealership technicians dictate
+  repair information hands-free, automatically structuring their speech into
+  repair orders, multi-point inspections, and service recommendations in real
+  time so shops can service more vehicles and capture more high-margin work.
+  Revion is a Winter 2026 Y Combinator company based in New York City, operating
+  across US and EU regions. As of this profile Revion is an early-stage product
+  company with no public developer API, SDK, or documentation surface; this
+  entry captures its public identity, security posture, and web properties for
+  the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/revion/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +32,53 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Artificial Intelligence
+- Automotive
+- Dealership Service
+- Voice AI
+- Repair Orders
+- Workflow Automation
+- Y Combinator
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: Website
+  url: https://revion.inc
+- type: About
+  url: https://revion.inc/company
+- type: SignUp
+  url: https://revion.inc/contact
+- type: Login
+  url: https://revion.inc/auth
+- type: Security
+  url: https://revion.inc/security
+- type: Compliance
+  url: https://revion.inc/security
+- type: PrivacyPolicy
+  url: https://revion.inc/privacy
+- type: TermsOfService
+  url: https://revion.inc/terms
+- type: Careers
+  url: https://revion.inc/careers
+- type: LinkedIn
+  url: https://linkedin.com/company/getrevion
+- type: DomainSecurity
+  url: security/revion-domain-security.yml
+- type: TrustCenter
+  url: security/revion-trust-center.yml
+- type: WellKnown
+  url: well-known/revion-well-known.yml
+- type: LLMsTxt
+  url: llms/revion-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1

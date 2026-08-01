@@ -1,0 +1,23 @@
+generated: '2026-07-20'
+method: searched
+probe: true
+source: https://revion.inc/security
+url: https://revion.inc/security
+certifications:
+- SOC 2 Type II
+- GDPR
+- CCPA
+controls:
+- zero-trust architecture
+- end-to-end encryption (AES-256)
+- role-based access controls
+- multi-factor authentication
+- independent third-party audits
+- penetration testing
+security_questionnaire: https://revion.inc/contact
+evidence:
+- source: https://revion.inc/security
+  keywords:
+  - soc2 ii
+  - gdpr
+  - ccpa

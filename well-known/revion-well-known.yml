@@ -1,0 +1,18 @@
+generated: '2026-07-20'
+method: searched
+host: https://revion.inc
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+notes: >-
+  Probed the public marketing host revion.inc and the app host app.revion.inc.
+  No /.well-known/ discovery documents are published; Revion exposes no public
+  API, OAuth authorization server, or agent-plugin surface as of this pass.
