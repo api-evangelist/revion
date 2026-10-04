@@ -51,7 +51,7 @@ tags:
 - Dealership Service
 - Voice AI
 - Repair Orders
-- Workflow-Automation
+- Workflow Automation
 - Y Combinator
 tags_raw:
 - Company
@@ -62,6 +62,7 @@ tags_raw:
 - Repair Orders
 - Workflow Automation
 - Y Combinator
+- Workflow-Automation
 apis: []
 maintainers:
 - FN: Kin Lane
